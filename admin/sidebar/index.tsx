@@ -4,6 +4,7 @@ import { IconContext } from "react-icons";
 import { MdOutlineSpaceDashboard } from "react-icons/md";
 import { HiOutlineUsers } from "react-icons/hi";
 import { IoChatbubblesOutline, IoBarChartOutline } from "react-icons/io5";
+import { FaUserShield } from "react-icons/fa";
 
 type SidebarLayout = {
     active: string;
@@ -45,6 +46,12 @@ function Sidebar(props: SidebarLayout) {
                         <div id='sidebar-room' className='sidebar-icon '>
                             <Link href='/room'>
                                 <a><IoChatbubblesOutline /></a>
+                            </Link>
+                        </div>
+
+                        <div id='sidebar-role' className='sidebar-icon '>
+                            <Link href='/role'>
+                                <a><FaUserShield /></a>
                             </Link>
                         </div>
 
