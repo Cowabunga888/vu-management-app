@@ -16,3 +16,6 @@ export const ROLES_ENDPOINT = {
     DELETE: "roles",
     CREATE: "roles"
 }
+export const ANALYTICS_ENDPOINT = {
+  GET_LIST_OF_METRICS_DATA: "analytics"
+}

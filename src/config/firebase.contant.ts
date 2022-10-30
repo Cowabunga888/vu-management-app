@@ -1,6 +1,6 @@
 export const DB_NAME = {
     ROOMS: 'rooms',
-    MESSAGE: 'messages',
+    MESSAGE: 'message',
     USERS: 'users',
     ROLES: 'roles'
 }
