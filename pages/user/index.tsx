@@ -6,7 +6,7 @@ function Users() {
   return (
     <>
       <Head>
-        <title>Admin User</title>
+        <title>User management</title>
       </Head>
 
       <Admin sidebar='user'>

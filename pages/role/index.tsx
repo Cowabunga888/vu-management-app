@@ -1,20 +1,20 @@
 import React from 'react';
 import Head from 'next/head';
 import Admin from '../../admin/index';
-import Room from './room';
+import Role from './role';
 
-function Rooms() {
+function Roles() {
     return (
         <>
             <Head>
-                <title>User management</title>
+                <title>Roles management</title>
             </Head>
 
-            <Admin sidebar='room'>
-                <Room/>
+            <Admin sidebar='role'>
+                <Role/>
             </Admin>
         </>
     )
 }
 
-export default Rooms
+export default Roles

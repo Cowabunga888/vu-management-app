@@ -1,0 +1,191 @@
+{
+    "columns": [
+        {
+            "field": "id",
+            "hide": true
+        },
+        {
+            "field": "avatar",
+            "headerName": "Avatar",
+            "sortable": false,
+            "filterable": false,
+            "groupable": false,
+            "aggregable": false,
+            "disableExport": true
+        },
+        {
+            "field": "name",
+            "headerName": "Name",
+            "dataGeneratorUniquenessEnabled": true,
+            "width": 120,
+            "editable": true,
+            "groupable": false,
+            "aggregable": false
+        },
+        {
+            "field": "website",
+            "headerName": "Website",
+            "width": 160,
+            "editable": true,
+            "groupable": false,
+            "aggregable": false,
+            "hide": true
+        },
+        {
+            "field": "rating",
+            "headerName": "Rating",
+            "width": 180,
+            "type": "number",
+            "editable": true,
+            "availableAggregationFunctions": [
+                "avg",
+                "min",
+                "max",
+                "size"
+            ],
+            "hide": true
+        },
+        {
+            "field": "email",
+            "headerName": "Email",
+            "width": 150,
+            "editable": true,
+            "hide": false
+        },
+        {
+            "field": "phone",
+            "headerName": "Phone",
+            "width": 150,
+            "editable": true,
+            "hide": true
+        },
+        {
+            "field": "username",
+            "headerName": "Username",
+            "width": 150,
+            "editable": true,
+            "hide": false
+        },
+        {
+            "field": "city",
+            "headerName": "City",
+            "editable": true,
+            "hide": true
+        },
+        {
+            "field": "company",
+            "headerName": "Company",
+            "width": 180,
+            "editable": true,
+            "hide": true
+        },
+        {
+            "field": "position",
+            "headerName": "Position",
+            "width": 180,
+            "editable": true,
+            "hide": true
+        },
+        {
+            "field": "lastUpdated",
+            "headerName": "Updated on",
+            "type": "dateTime",
+            "width": 180,
+            "editable": true,
+            "hide": true
+        },
+        {
+            "field": "dateCreated",
+            "headerName": "Created on",
+            "type": "date",
+            "width": 120,
+            "editable": true,
+            "hide": true
+        },
+        {
+            "field": "isAdmin",
+            "headerName": "Is admin?",
+            "type": "boolean",
+            "width": 150,
+            "editable": true
+        },
+        {
+            "field": "salary",
+            "headerName": "Salary",
+            "type": "number",
+            "hide": true
+        }
+    ],
+    "rows": [
+        {
+            "id": "b518a9b1-dda6-5dd0-945f-48eaa9b7db0c",
+            "avatar": "#4caf50",
+            "name": "Frank McGuire",
+            "website": "http://nocwiw.rw/mar",
+            "rating": 1,
+            "email": "jareema@fodez.lk",
+            "phone": "(222) 399-9357",
+            "username": "@wobif",
+            "city": "Tuikrol",
+            "company": "Union Planters Corp",
+            "position": "Comptroller",
+            "lastUpdated": "2022-10-19T20:09:36.408Z",
+            "dateCreated": "2022-06-16T22:28:26.081Z",
+            "isAdmin": false,
+            "salary": 60230
+        },
+        {
+            "id": "c061d667-7e52-5d09-afe1-dc20b3691058",
+            "avatar": "#9c27b0",
+            "name": "James Shaw",
+            "website": "http://na.fr/deftom",
+            "rating": 1,
+            "email": "fehu@urvira.tp",
+            "phone": "(876) 600-9157",
+            "username": "@barma",
+            "city": "Meenuva",
+            "company": "Jones Apparel Group Inc.",
+            "position": "Director",
+            "lastUpdated": "2022-10-19T22:38:00.427Z",
+            "dateCreated": "2022-01-06T05:55:47.994Z",
+            "isAdmin": false,
+            "salary": 34515
+        },
+        {
+            "id": "b8558352-f8bb-5ee1-b415-ac32f34489f5",
+            "avatar": "#03a9f4",
+            "name": "Duane Harvey",
+            "website": "http://itate.mt/hetji",
+            "rating": 3,
+            "email": "jebigduc@julur.by",
+            "phone": "(960) 814-5101",
+            "username": "@esemezu",
+            "city": "Ofanepov",
+            "company": "Universal Health Services Inc",
+            "position": "Politician",
+            "lastUpdated": "2022-10-19T22:31:03.799Z",
+            "dateCreated": "2022-04-09T21:01:22.095Z",
+            "isAdmin": false,
+            "salary": 64635
+        }
+    ],
+    "initialState": {
+        "columns": {
+            "columnVisibilityModel": {
+                "id": true,
+                "website": false,
+                "rating": false,
+                "email": true,
+                "phone": false,
+                "username": true,
+                "city": false,
+                "country": false,
+                "company": false,
+                "position": false,
+                "lastUpdated": false,
+                "dateCreated": false,
+                "salary": false
+            }
+        }
+    }
+}
