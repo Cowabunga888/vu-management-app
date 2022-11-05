@@ -1,3 +1,8 @@
+Deploy link:
+1. Firebase: https://chatting-management.web.app/
+2. Vercel: https://chatting-management.vercel.app/
+3. Heroku: https://chatting-management.herokuapp.com/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
